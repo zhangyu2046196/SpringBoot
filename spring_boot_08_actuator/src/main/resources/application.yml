@@ -1,0 +1,11 @@
+management:
+  security:
+    enabled: false #关闭权限控制
+endpoints:
+  shutdown:
+    enabled: true #开启远程关机
+spring:
+  redis:
+    host: 192.168.123.252
+
+

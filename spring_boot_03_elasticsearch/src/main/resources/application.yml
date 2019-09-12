@@ -1,0 +1,9 @@
+spring:
+  elasticsearch:
+    jest:
+      #uris: http://192.168.1.109:9200
+      uris: http://192.168.123.252:9200
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.123.252:9300 #spring data操作elasticsearch监听的端口是9300

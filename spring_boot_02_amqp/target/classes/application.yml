@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    host: 192.168.1.109
+    port: 5679
+    username: guest
+    password: guest
+    #默认virtual-host=/
+    #virtual-host:

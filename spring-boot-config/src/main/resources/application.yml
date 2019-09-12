@@ -1,0 +1,45 @@
+#portserver:
+#  port: 8081
+#
+#firends:
+#  lastName: 有缘
+#  age: 20
+#
+#pets:
+#  - cat
+#  - dog
+#  - pig
+#
+#person:
+#  lastName: 友缘在线科技
+#  age: 20
+#  boss: false
+#  maps:
+#    k1: v1
+#    k2: v2
+#  lists:
+#    - book
+#    - movie
+#    - sing
+#  dog:
+#    name: 小狗
+#    age: 2
+
+server:
+  port: 8085
+spring:
+  profiles:
+    active: pro
+
+
+---
+server:
+  port: 8086
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8087
+spring:
+  profiles: pro

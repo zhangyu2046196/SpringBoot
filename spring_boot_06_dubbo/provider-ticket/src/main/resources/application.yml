@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: provider-ticket #指定服务名
+  registry:
+    protocol: zookeeper #协议
+    address: 192.168.123.252:2181 #指定注册中心地址
+  scan:
+    base-packages: com.youyuan.ticket.service #扫描发布服务的包

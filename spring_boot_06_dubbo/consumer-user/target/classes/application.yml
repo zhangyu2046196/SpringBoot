@@ -1,0 +1,6 @@
+#dubbo:
+#  application:
+#    name: consumer-user #消费者名称
+#  registry:
+#    protocol: zookeeper #协议
+#    address: 192.168.123.252:2181 #指定注册中心地址
